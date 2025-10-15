@@ -9,7 +9,7 @@ export function Artigos()
 {
     return(
         <div className={style.container}>
-            <h1>Artigos em Destaque</h1>
+            <h1 className={style.h1}>Artigos em Destaque</h1>
 
             <div className={style.cardsContainer}>
                 <div className={style.card}>
