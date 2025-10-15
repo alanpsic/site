@@ -4,7 +4,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import style from "./style.module.css";
 import { Link } from "react-router-dom";
 
-import primeiroArtigoImg from "../../images/Artigos/SaudeMentalDetail.png";
+import primeiroArtigoImg from "../../images/Artigos/saude-jung.jpg";
 import segundoArtigoImg from "../../images/Artigos/CaminhadaImg.png";
 import terceiroArtigoImg from "../../images/Artigos/SaudeMentalDetail.png";
 import { ArtigoContent } from "../artigoContent";
@@ -22,7 +22,7 @@ export const  primeiroArtigo = {
     texto: 
     (
         <>
-            <p>1. Conceito de Saúde Mental segundo Jung </p>
+            <p><b>1. Conceito de Saúde Mental segundo Jung</b></p>
 
             <p>Na psicologia analítica de Carl Gustav Jung, saúde mental não é apenas a ausência de doença, mas sim um processo de individuação, ou seja, o desenvolvimento pleno da personalidade e integração dos diferentes aspectos do self.</p>
             <p><b>Individuação:</b> Processo de integração consciente e inconsciente, buscando equilíbrio entre o ego, o self e os arquétipos.</p>
@@ -32,7 +32,7 @@ export const  primeiroArtigo = {
 
             <br /><br />
 
-            <p>2. Papel da Psicoterapia Junguiana na Saúde Mental</p>
+            <p><b>2. Papel da Psicoterapia Junguiana na Saúde Mental</b></p>
 
             <p>A psicoterapia junguiana visa ajudar o indivíduo a: Integrar conteúdos inconscientes (sonhos, fantasias, emoções reprimidas).</p>
             <p>Desenvolver consciência do self e de sua autenticidade.</p>
@@ -41,7 +41,7 @@ export const  primeiroArtigo = {
 
             <br /><br />
 
-            <p>3. Principais Técnicas e Ferramentas</p>
+            <p><b>3. Principais Técnicas e Ferramentas</b></p>
 
             <p>* 1. Análise de sonhos:</p>
             <p>Sonhos são mensagens do inconsciente.</p>
@@ -50,6 +50,44 @@ export const  primeiroArtigo = {
             <p>Técnica para dialogar com conteúdos inconscientes.</p>
             <p>Ex.: imaginar conversas com figuras simbólicas do inconsciente para integração de aspectos reprimidos.</p>
             <p>* 3. Trabalho com mitos e arquétipos:</p>
+            <p>Histórias universais ajudam a compreender conflitos e padrões de vida.</p>
+
+            <br /><br />
+
+            <p>*4. Amplificação:</p>
+
+            <p>Exploração detalhada de símbolos, imagens ou acontecimentos psíquicos, relacionando-os com mitologia, arte ou religião para maior compreensão.</p>
+
+            <br /><br />
+
+            <p>*5. Associação livre:</p>
+
+            <p>Exploração de pensamentos, sentimentos e lembranças espontâneas para acessar conteúdos inconscientes.</p>
+
+            <br /><br />
+
+            <p><b>4. Indicadores de Saúde Mental em Junguiana</b></p>
+
+            <p>Um indivíduo apresenta saúde mental quando:</p>
+            <p># Consegue integrar sua sombra, reconhecendo limites e potencialidades.</p>
+            <p># Mantém equilíbrio entre vida interna e externa.</p>
+            <p># Desenvolve autenticidade e autonomia emocional.</p>
+            <p># Possui resiliência psíquica, lidando com traumas e conflitos sem se fragmentar.</p>
+            <p># Encontra sentido na vida e nas experiências, mesmo nas dificuldades</p>
+
+            <br /><br />
+
+            <p><b>5. Benefícios da Psicoterapia Junguiana</b></p>
+            <p>Maior autoconhecimento e clareza de valores.</p>
+            <p>Redução de conflitos internos e sintomas psíquicos (ansiedade, depressão leve, conflitos existenciais).</p>
+            <p>Integração de opostos internos, promovendo harmonia interna.</p>
+            <p>Desenvolvimento espiritual e existencial, respeitando crenças pessoais.</p>
+
+            <br /><br />
+
+            <p><b>6. Conclusão</b></p>
+
+            <p>A psicoterapia junguiana entende a saúde mental como um processo dinâmico, que não se resume a eliminar sintomas, mas a desenvolver a psique de forma integrada, permitindo que o indivíduo viva de maneira plena, consciente e em equilíbrio consigo mesmo e com o mundo.</p>
 
         </>
     ),
